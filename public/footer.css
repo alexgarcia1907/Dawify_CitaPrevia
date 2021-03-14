@@ -1,0 +1,14 @@
+.separador{
+    margin: 0 2rem;
+}
+
+.footer{
+    background-color: #232526;
+    position: fixed;
+    bottom: 0;
+    color: white;
+}
+
+.col a{
+    color: white;
+}

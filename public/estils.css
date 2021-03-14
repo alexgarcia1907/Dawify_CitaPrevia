@@ -1,0 +1,242 @@
+body{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("./img/fonslogin.jpg");
+}
+
+/*login.php*/
+.contenidor {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 5% 15% 0% 15%;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 46px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 46px 4px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 46px 4px rgba(0,0,0,0.75);
+}
+
+.contenidor1{
+    background-color: #fff; 
+    background-repeat: repeat-y; 
+    background-size: 100% 88px;
+    border-radius: 10px; 
+    background-position: 0% 0%; 
+    background-image: repeating-linear-gradient(-25deg, #fff, #fff 20px, #df5646 20px, #df5646 40px, #fff 40px, #fff 60px, #1c78a4 60px, #1c78a4 80px); 
+    animation: barberpole 4s linear infinite; 
+}
+
+.titol{
+    padding: 20px;
+    text-align: center;
+}
+
+.contingut {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: white;
+    color: black;
+}
+
+.login{
+    border-right: 2px solid black;
+    padding: 20px;
+}
+
+.registre{
+    padding: 20px;
+}
+
+.formulari{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.enviem{
+    float: right !important;
+}
+
+.contingut h5{
+    text-align: center;
+}
+
+@-webkit-keyframes barberpole {
+    0% { background-position: 0% 0%; } 100% { background-position: 0% 50%; } 
+}
+
+/*portada.php*/
+.barrika{
+    width: 100%;
+    height: 50px;
+    background-color: #fff; 
+    background-repeat: repeat-y; 
+    background-size: 200% 200%;
+    background-image: repeating-linear-gradient(-25deg, #fff, #fff 20px, #df5646 20px, #df5646 40px, #fff 40px, #fff 60px, #1c78a4 60px, #1c78a4 80px); 
+    animation: barber 30s linear infinite;
+    -webkit-box-shadow: 10px 10px 46px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 46px 4px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 46px 4px rgba(0,0,0,0.75);
+}
+
+.calen{
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.opcions{
+    margin-top: 20px;
+}
+
+.formulari{
+    padding: 30px;
+}
+
+.formulari input{
+    width: 100%;
+}
+
+/*portadaadmin.php*/
+.barrikaadmin{
+    width: 100%;
+    height: 50px;
+    background-color: #fff; 
+    background-repeat: repeat-y; 
+    background-size: 200% 200%;
+    background-image: repeating-linear-gradient(-25deg, #fff, #fff 20px, #df5646 20px, #df5646 40px, #fff 40px, #fff 60px, #1c78a4 60px, #1c78a4 80px); 
+    animation: barber 30s linear infinite;
+    -webkit-box-shadow: 10px 10px 46px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 46px 4px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 46px 4px rgba(0,0,0,0.75);
+}
+
+@-webkit-keyframes barber {
+    100% { background-position: 100% 100%; }
+}
+
+.confug{
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+    -webkit-box-shadow: 10px 10px 46px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 46px 4px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 46px 4px rgba(0,0,0,0.75);
+}
+
+/*Calendari*/
+.calendari{
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.mes{
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.setmana{
+    background-color:  #232526;
+    color: white;
+}
+
+.mes tr{
+    height: 50px;
+    border: 2px solid  #232526;
+    border-collapse: collapse;
+}
+
+.mesu{
+    background-color: #df5646;
+    color: white;
+}
+
+.white{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.white td:nth-child(6n){
+    background-color: #232526;
+}
+.white td:nth-child(7n){
+    background-color: #232526;
+}
+
+.white td:nth-child(6n) button{
+    pointer-events: none;
+    background-color: #232526;
+    color: white;
+}
+.white td:nth-child(7n) button{
+    pointer-events: none;
+    background-color: #232526;
+    color: white;
+}
+
+.modal-header{
+    background-color: #df5646 !important;
+    color: white;
+    border: none;
+}
+
+/*Portadaconfig*/
+.conf{
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 10px 10px 46px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 46px 4px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 46px 4px rgba(0,0,0,0.75);
+}
+
+.header-config{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    background-color: #df5646;
+    color: white;
+}
+.body-config{
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+
+.reservs{
+    padding: 30px 30px 0 30px;
+    text-align: center;
+}
+
+.table{
+    text-align: center;
+}
+
+.confu{
+    margin-bottom: 20px;
+}
+
+.bg-ple {
+    background-color: #df5646;
+}
+.bg-ple button {
+    background-color: #df5646;
+    color:white;
+    font-weight: bold;
+}
