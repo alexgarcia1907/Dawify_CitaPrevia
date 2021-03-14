@@ -21,7 +21,7 @@ function ctrl_dia($peticio, $resposta, $config) {
             $modalsbody = $modalsbody . '<div id="containsmodal">
                         <div class="container-fluid">
                             <div class="row">
-                                <div class="col col-sm-6">
+                                <div class="col col-lg-6">
                                     <div class="reservs">
                                         <h5>Les meves reserves</h5>';
                                         $citesara = citesdia($cita, $diaget, $usuario, $peticio->get('SESSION','usuari'));
@@ -34,7 +34,7 @@ function ctrl_dia($peticio, $resposta, $config) {
 
                                     </div>
                                 </div>
-                                <div class="col col-sm-6">
+                                <div class="col col-lg-6">
                                     <form action="index.php" method="post">
                                         <div class="formulari">
                                             <p>L\'horari disponible és de 9:00 a 13:00.</p>
@@ -78,7 +78,7 @@ function ctrl_dia($peticio, $resposta, $config) {
             <div id="containsmodal">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col col-md-6">
+                        <div class="col col-lg-6">
                             <div class="reservs">
                                 <h5>Les meves reserves</h5>';
                                 $citesara = citesdiaadmin($cita, $diaget, $usuario);
@@ -91,7 +91,7 @@ function ctrl_dia($peticio, $resposta, $config) {
             
                             </div>
                         </div>
-                        <div class="col col-md-6">
+                        <div class="col col-lg-6">
 
                             <form action="index.php" method="post">
                                 <div class="formulari">

@@ -32,7 +32,7 @@ function ctrl_portada($peticio, $resposta, $config){
     $rol = $usuario -> getrol($nomusuari);
     
     $modals = $modals . '<div class="modal fade" id="0Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
         <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Reserves</h5>
