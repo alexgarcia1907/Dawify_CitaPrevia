@@ -53,6 +53,9 @@
                 <div class="registre">
                     <h5 class="font-weight-bold">Inici</h5>
                     <div class="formulari">
+                        <?php
+                            echo "<p class='error text-center text-danger'>$error</p>";
+                        ?>
                         <form action="index.php?r=vlogin" method="post">
                         <label>Introdueix el teu usuari:</label>
                         <div class="input-group mb-3">
@@ -60,6 +63,7 @@
                             <span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
                             </div>
                             <input name="usuarilogin" type="text" class="form-control" placeholder="Usuari" aria-label="Usuari" aria-describedby="basic-addon1">
+                            
                         </div>
                         <label>Introdueix la contrasenya:</label>
                         <div class="input-group mb-3">

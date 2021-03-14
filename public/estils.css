@@ -240,3 +240,7 @@ body{
     color:white;
     font-weight: bold;
 }
+
+.error{
+    font-weight: bold;
+}
