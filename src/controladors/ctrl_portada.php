@@ -25,10 +25,9 @@ function ctrl_portada($peticio, $resposta, $config){
         echo("<div class=alert>Aquesta hora ja esta reservada.</div>" );
     }
 
-    $calendar = creaCalendari(new DateTime(), $config["dies"], $config["festius"]);
+    $calendar = creaCalendari(new DateTime(), $config["dies"], $cita, $config["festius"]);
 
-    $data = new DateTime();    
-
+    $data = new DateTime();
 
     $rol = $usuario -> getrol($nomusuari);
     

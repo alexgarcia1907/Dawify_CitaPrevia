@@ -18,7 +18,7 @@
         <input type="hidden" name="r" value="clusession">
     </form>
     <form action="index.php" method="post">
-        <button type="submit" class="confug">CONFIGURACIÓ</button>
+        <button type="submit" class="confug">GESTIÓ DE CITES</button>
         <input type="hidden" name="r" value="configadmin">
     </form>
     <form action="index.php" method="post">

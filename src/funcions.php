@@ -9,7 +9,7 @@
  * @return calendarienhtml
  */
 
-function creaCalendari($diadt, $diesamostrar, $festius = array()) {
+function creaCalendari($diadt, $diesamostrar, $modelcita, $festius = array()) {
 
 
   $muchotexto = "";
@@ -43,8 +43,12 @@ function creaCalendari($diadt, $diesamostrar, $festius = array()) {
           $muchotexto = $muchotexto . '<tr class="white">';
         }
 
-          $muchotexto = $muchotexto . '<td><button class="white prov dia" data-toggle="modal" data-dia="'.$diadt->format("Y-m-j").'" data-target="#'.$i.'Modal">'.$diadt->format("M j").'</button></td>';
+          $muchotexto = $muchotexto . '<td class ="dia'.$i.'"><button class="white prov dia" data-toggle="modal" data-dia="'.$diadt->format("Y-m-j").'" data-target="#'.$i.'Modal">'.$diadt->format("M j").'</button></td>';
+          $citesdeldia = $modelcita->obtenircitesundia($diadt->format("Y-m-j"));
+          if (sizeof($citesdeldia) >= 9) {
+            $diesplens[] = $i;
 
+          }
           $diadt->modify("+1 day");
 
         if ($celdasquellevo % 7 == 6) {
@@ -59,7 +63,9 @@ function creaCalendari($diadt, $diesamostrar, $festius = array()) {
       }
       
       $muchotexto = $muchotexto . '</tr></table>';
-
+      for ($i = 0; $i < sizeof($diesplens); $i++) {
+        $muchotexto = $muchotexto.'<script>$("td.dia'.$diesplens[$i].'").addClass("bg-ple");</script>';
+      }
       return $muchotexto;
 }
 
