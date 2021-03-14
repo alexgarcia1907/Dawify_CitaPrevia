@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="estils.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="footer.css" rel="stylesheet" type="text/css" media="all"/>
     <title>Calendari</title>
 </head>
 <body>
@@ -43,5 +44,8 @@
      });
   
     </script>
+    <?php
+    include 'footer.php';
+    ?>
 </body>
 </html>

@@ -80,12 +80,12 @@ function mostrardatos($cita){
   $datos = $cita -> obtenirtot();
   $todo = "";
 
-  $todo = $todo . ('<div class="row confu"><div class="header-config">
-  <h5>Reserves</h5></div><div class="body-config"><table class="table table-striped table-hover">
-  <tr><th>Usuari</th> <th>Hora</th><th>Comentari</th><th></th></tr>');
+  $todo = $todo . ('<div class="confu"><div class="header-config">
+  <h5>Reserves</h5></div><div class="body-config"><table class="tablius">
+  <tr class="setmana"><th>Usuari</th> <th>Hora</th><th>Comentari</th><th></th></tr>');
 
     foreach ($datos as $fila){
-        $todo = $todo . ('<tr><td>'.$fila["nom"].'</td><td>'.$fila["data"].'</td><td>'.$fila["comentari"].'</td><td><form method="post" action="index.php"><input hidden name="r" value="borracita"><button name="cita" value="'.$fila["idcita"].'" type="submit" class="btn btn-dark">Elimina</button></form></td></tr>');  
+        $todo = $todo . ('<tr><td>'.$fila["nom"].'</td><td>'.$fila["data"].'</td><td>'.$fila["comentari"].'</td><td><form method="post" action="index.php"><input hidden name="r" value="borracita"><button name="cita" value="'.$fila["idcita"].'" type="submit" class="btn btn-dark eliusu">Elimina</button></form></td></tr>');  
     }
     
     $todo = $todo . ('</table></div></div>');

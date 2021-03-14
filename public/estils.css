@@ -14,6 +14,8 @@ body{
     -webkit-box-shadow: 10px 10px 46px 4px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 46px 4px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 46px 4px rgba(0,0,0,0.75);
+    margin-top: 100px;
+    margin-bottom: 100px; 
 }
 
 .contenidor1{
@@ -23,10 +25,14 @@ body{
     border-radius: 10px; 
     background-position: 0% 0%; 
     background-image: repeating-linear-gradient(-25deg, #fff, #fff 20px, #df5646 20px, #df5646 40px, #fff 40px, #fff 60px, #1c78a4 60px, #1c78a4 80px); 
-    animation: barberpole 4s linear infinite; 
+    animation: barberpole 4s linear infinite;
 }
 
-.titol{
+.tit{
+    text-align: center;
+}
+
+.ti{
     padding: 20px;
     text-align: center;
 }
@@ -86,9 +92,10 @@ body{
 }
 
 .calen{
-    padding-top: 100px;
+    padding-top: 170px;
     padding-left: 50px;
     padding-right: 50px;
+    margin-bottom: 100px;
 }
 .opcions{
     margin-top: 20px;
@@ -135,11 +142,10 @@ body{
 
 /*Calendari*/
 .calendari{
-    padding-top: 100px;
+    padding-top: 170px;
     padding-left: 50px;
     padding-right: 50px;
-    
-
+    margin-bottom: 100px;
 }
 .mes{
     width: 100%;
@@ -147,8 +153,23 @@ body{
     border-radius: 10px;
     overflow: hidden;
 }
+
+.tablius{
+    width: 100%;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.tablius tr{
+    height: 50px;
+    border: 2px solid  #232526;
+    border-collapse: collapse;
+}
+
 .setmana{
-    background-color:  #232526;
+    background-color:  #232526 !important;
     color: white;
 }
 
@@ -193,17 +214,15 @@ body{
     color: white;
     border: none;
 }
-.modal-body {
-    padding-bottom: 0;
-    padding-top: 0;
-}
 
 /*Portadaconfig*/
 .conf{
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 130px;
     background-color: white;
     border-radius: 10px;
-    margin-bottom: 50px;
     -webkit-box-shadow: 10px 10px 46px 4px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 46px 4px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 46px 4px rgba(0,0,0,0.75);
@@ -221,7 +240,6 @@ body{
 }
 .body-config{
     width: 100%;
-    padding: 30px;
     text-align: center;
 }
 
@@ -235,7 +253,7 @@ body{
 }
 
 .confu{
-    margin-bottom: 20px;
+    box-shadow: 0px 5px 20px 0px #000000;
 }
 
 .bg-ple {
@@ -247,6 +265,135 @@ body{
     font-weight: bold;
 }
 
-.error{
-    font-weight: bold;
+/*CRUD*/
+.usullis{
+    margin: 130px;
+    margin-top: 30px !important;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px 0px #000000;
+}
+
+.usullis table{
+    text-align: center;
+    align-content: center;
+}
+
+.usullis table thead{
+    background-color: #df5646;
+    color: white;
+}
+
+.titol{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+
+.tit p{
+    color: black !important;
+    font-size: 40px;
+}
+
+.eliusu{
+    background-color: rgb(226, 25, 25);
+    box-shadow: inset 0px 0px 25px 2px rgba(0,0,0,0.5);
+    border: none;
+}
+
+.eliusu:hover{
+    background-color: rgb(190, 90, 90);
+    border: none;
+}
+
+.ediusu{
+    background-color: #1c78a4;
+    box-shadow: inset 0px 0px 25px 2px rgba(0,0,0,0.5);
+    border: none;
+}
+
+.ediusu:hover{
+    background-color: #6fadca;
+    border: none;
+}
+
+.tornausu{
+    float: right;
+    background-color: rgb(54, 54, 54);
+    box-shadow: inset 0px 0px 25px 2px rgba(0,0,0,0.5);
+    border: none;
+    border-radius: 5px;
+}
+
+.tornausu:hover{
+    float: right;
+    background-color: rgb(54, 54, 54);
+    border: none;
+    border-radius: 5px;
+}
+
+.opusu a{
+    margin: 130px;
+}
+
+.titol a{
+    width: 120px;
+    text-align: right;
+}
+
+.bototorna{
+    margin-top: 30px;
+    margin-right: 110px;
+    float: right;
+}
+
+/*Editar usuari*/
+
+.card{
+   border: none;
+   border-radius: 10px;
+   box-shadow: 0px 5px 20px 0px #000000;
+   margin-bottom: 100px;
+}
+
+.card-header{
+    background-color: #df5646;
+    color: white;
+}
+
+.card-body{
+    color: black !important;
+    border: 2px solid  #232526;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/*Politiques*/
+
+.alegal{
+    border-radius: 5px;
+    background-color: white;
+    margin: 100px;
+    padding: 30px;
+    box-shadow: 0px 5px 20px 0px #000000;
+}
+
+.politica{
+    border-radius: 5px;
+    background-color: white;
+    margin: 100px;
+    padding: 30px;
+    box-shadow: 0px 5px 20px 0px #000000;
+}
+
+.pcookies{
+    border-radius: 5px;
+    background-color: white;
+    margin: 100px;
+    padding: 30px;
+    box-shadow: 0px 5px 20px 0px #000000;
 }

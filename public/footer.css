@@ -1,14 +1,61 @@
-.separador{
-    margin: 0 2rem;
+.footer-menu{
+    margin-top: 15px;
 }
 
-.footer{
-    background-color: #232526;
-    position: fixed;
-    bottom: 0;
-    color: white;
+.footer-top { padding: 60px 0; background: #232526; text-align: left; color: #aaa; }
+.footer-top h3 { padding-bottom: 10px; color: #fff; }
+
+.footer-about img{
+    padding: 10px;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
 }
 
-.col a{
-    color: white;
+.footer-social a { display: inline-block; margin-right: 20px; margin-bottom: 8px; color: #777; border: 0; }
+.footer-social a:hover, .footer-social a:focus { color: #aaa; border: 0; }
+.footer-social i { font-size: 24px; vertical-align: middle; }
+.footer-links{ text-align: center; padding: 50px;}
+.footer-links a { text-align: center; color: #fff; color: rgba(255, 255, 255, 0.8); border: 0; }
+.footer-links a:hover, .footer-links a:focus { color: #fff; }
+
+.footer-bottom { padding: 15px 0; background: #444; text-align: left; color: #aaa; }
+
+.footer-copyright p { margin: 0; padding: 0.5rem 0; }
+.footer-copyright a { color: #fff; border: 0; }
+.footer-copyright a:hover, .footer-copyright a:focus { color: #aaa; border: 0; }
+
+/* footer navbar */
+.navbar { padding: 0; background: #444; backface-visibility: hidden; }
+
+.navbar-dark .navbar-nav { font-size: 15px; color: #fff; font-weight: 400; }
+.navbar-dark .navbar-nav .nav-link { color: #fff; border: 0; }
+.navbar-dark .navbar-nav .nav-link:hover { color: #aaa; }
+.navbar-dark .navbar-nav .nav-link:focus { color: #aaa; outline: 0; }
+
+.navbar-expand-md .navbar-nav .nav-link { padding-left: 1rem; padding-right: 1rem; }
+
+.github-button {
+    padding: 0 10px;
+    height: 28px;
+    line-height: 26px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .9);
+    color: #333 !important;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 13px;
+    background: #fff;
+    background-color: #eee;
+    background: -webkit-linear-gradient(#fcfcfc, #eee);
+    background: -moz-linear-gradient(#fcfcfc, #eee);
+    background: -ms-linear-gradient(#fcfcfc, #eee);
+    background: -o-linear-gradient(#fcfcfc, #eee);
+    background: linear-gradient(#fcfcfc, #eee);
 }
