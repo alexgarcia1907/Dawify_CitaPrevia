@@ -6,6 +6,7 @@ Bones!! Som tres alumnes de 2n de DAW de l'Institut Cendrassos, i degut a la sit
 **És un projecte Open Source, el codi és públic i qualsevol persona és lliure de fer-lo servir.**
 
 Algunes funcionalitats de l'aplicació:
+
     *Com a usuari:
         *Registrar-te / Iniciar sessió.        
         *Demanar cita (dia i hora).
