@@ -1,0 +1,155 @@
+@media (max-width: 767px){
+    .login{
+        border-right: none;
+        padding: 20px;
+        border-bottom: 2px solid black;
+    }
+    
+    .contingut {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-color: white;
+        color: black;
+    }
+}
+
+@media (max-width: 600px){
+    .calendari{
+        padding-top: 170px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 100px;
+    }
+
+    .calen{
+        padding-top: 170px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 100px;
+    }
+
+    .mes{
+        width: 100%;
+        text-align: center;
+        border-radius: 0px;
+        overflow: hidden;
+    }
+
+    .botoadmins button{
+        padding: 10px;
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        margin: auto;
+        display: block;
+    }
+}
+
+@media (max-width : 800px) {
+    .ides{
+        display: none;
+    }
+
+    .usullis{
+        margin-bottom: 130px;
+        margin: 0px;
+        border-radius: 0px;
+    }
+
+    .tablius{
+        margin-bottom: 130px;
+        border-radius: 0px;
+    }
+    
+    .header-config{
+        border-radius: 0px;
+    }
+
+    .bototorna{
+        margin-top: 30px;
+        margin-right: 0px;
+        float: right;
+    }
+
+    .conf{
+        margin-bottom: 130px;
+        margin: 0px;
+        border-radius: 0px;
+    }
+
+    .rese{
+        margin-top: 30px;
+    }
+
+    .pcookies{
+        max-width: 90%;
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
+        border-radius: 5px;
+        background-color: white;
+        margin: 0 auto;
+        padding: 30px;
+        box-shadow: 0px 5px 20px 0px #000000;
+    }
+
+    .alegal{
+        max-width: 90%;
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
+        border-radius: 5px;
+        background-color: white;
+        margin: 0 auto;
+        padding: 30px;
+        box-shadow: 0px 5px 20px 0px #000000;
+    }
+    
+    .politica{
+        max-width: 90%;
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
+        border-radius: 5px;
+        background-color: white;
+        margin: 0 auto;
+        padding: 30px;
+        box-shadow: 0px 5px 20px 0px #000000;
+    }
+}
+
+@media (min-width : 701px) {
+    .diesabr{
+        display: none;
+    }
+}
+
+@media (max-width : 700px) {
+    .diescomplets{
+        display: none;
+    }
+    .white td:nth-child(6n){
+        display: none;
+    }
+    .white td:nth-child(7n){
+        display: none;
+    }
+    .setmana td:nth-child(6n){
+        display: none;
+    }
+    .setmana td:nth-child(7n){
+        display: none;
+    }
+}
+
+@media (max-width : 600px) {
+    .modal-body{
+        padding: 0px;
+    }
+    .reservs table th{
+        padding: 0px;
+    }
+}

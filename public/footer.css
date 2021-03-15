@@ -59,3 +59,33 @@
     background: -o-linear-gradient(#fcfcfc, #eee);
     background: linear-gradient(#fcfcfc, #eee);
 }
+
+@media (max-width: 767px){
+    .footer-copyright{
+        text-align: center;
+    }
+    .footer-menu {
+        text-align: center;
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        margin: auto;
+        display: block;
+    }
+}
+
+@media (max-width: 1000px) and (min-width : 768px){
+    .footer-copyright{
+        text-align: center;
+    }
+    .footer-menu {
+        text-align: center;
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        margin: auto;
+        display: block;
+    }
+}

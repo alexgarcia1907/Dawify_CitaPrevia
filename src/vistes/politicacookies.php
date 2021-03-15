@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="estils.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="footer.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="querys.css" rel="stylesheet" type="text/css" media="all"/>
     <title>Política de cookies</title>
 </head>
 <body>
@@ -37,7 +38,7 @@
 
 <p>Les cookies, en funció de la seva permanència, poden dividir-se en galetes de sessió o permanents. Les que expiren quan l'usuari tanca el navegador. Les que expiren en funció de quan es compleixi l'objectiu per al qual serveixen (per exemple, perquè l'usuari es mantingui identificat en els serveis de Victor) o bé quan s'esborren manualment.</p>
 
-<table class="table table-striped">
+<table class="table table-striped table-responsive">
     <thead>
 <tr><th>Nom</th>	<th>Tipus</th>	<th>Caducitat</th>	<th>Finalitat</th>	<th>Classe</th></tr></thead>
 <tbody>
@@ -83,31 +84,31 @@ Identificar de forma anònima els continguts més visitats i per tant més atrac
 
 <p>Les empreses que generen aquestes cookies tenen les seves pròpies polítiques de privacitat. En l'actualitat, els webs de Victor utilitzen la plataforma Doubleclick (Google) per gestionar aquests serveis. Per a més informació, acudeixi a</p>
 
-<p>http://www.google.es/policies/privacy/ads/#toc-doubleclick y a http://www.google.es/policies/privacy/ads/.</p>
+<p><a href="http://www.google.es/policies/privacy/ads/#toc-doubleclick">Aquí</a> y a <a href="http://www.google.es/policies/privacy/ads/">aquí</a>.</p>
 
 <h4>Com puc desactivar les cookies al navegador?</h4>
 <p>Es poden configurar els diferents navegadors per avisar l'usuari de la recepció de cookies i, si es desitja, impedir la seva instal·lació en l'equip. Així mateix, l'usuari pot revisar al teu navegador quina cookies té instal·lades i quin és el termini de caducitat de les mateixes, podent eliminar-les.</p>
 
 <p>Per ampliar aquesta informació consulteu les instruccions i manuals del seu navegador:</p>
 
-<p>Per a més informació sobre l'administració de les galetes a Google Chrome: https://support.google.com/chrome/answer/95647?hl=es</p>
+<p>Per a més informació sobre l'administració de les galetes a Google Chrome: <a href="https://support.google.com/chrome/answer/95647?hl=es">Enllaç</a></p>
 
-    <p>Per a més informació sobre l'administració de les galetes a Internet Explorer: http://windows.microsoft.com/es-es/windows-vista/cookies-frequently-asked-questions</p>
+    <p>Per a més informació sobre l'administració de les galetes a Internet Explorer: <a href="http://windows.microsoft.com/es-es/windows-vista/cookies-frequently-asked-questions">Enllaç</a></p>
 
-     <p>Per a més informació sobre l'administració de les galetes de Mozilla Firefox: http://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-que-los-sitios-we</p>
+     <p>Per a més informació sobre l'administració de les galetes de Mozilla Firefox: <a href="http://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-que-los-sitios-we">Enllaç</a></p>
 
-     <p>Per a més informació sobre l'administració de les galetes en Safari: http://www.apple.com/es/privacy/use-of-cookies/</p>
+     <p>Per a més informació sobre l'administració de les galetes en Safari: <a href="http://www.apple.com/es/privacy/use-of-cookies/">Enllaç</a></p>
 
-    <p>Per a més informació sobre l'administració de les galetes a Opera: http://help.opera.com/Windows/11.50/es-ES/cookies.html</p>
+    <p>Per a més informació sobre l'administració de les galetes a Opera: <a href="http://help.opera.com/Windows/11.50/es-ES/cookies.html">Enllaç</a></p>
 
-    <p>Si desitja deixar de ser seguit per Google Analytics visiteu: http://tools.google.com/dlpage/gaoptout</p>
+    <p>Si desitja deixar de ser seguit per Google Analytics visiteu: <a href="http://tools.google.com/dlpage/gaoptout">Enllaç</a></p>
 
 <h4>Per saber més sobre les cookies</h4>
-<p>Podeu obtenir més informació sobre la publicitat en línia basada en el comportament i la privacitat en línia en el següent enllaç: http://www.youronlinechoices.com/es/</p>
+<p>Podeu obtenir més informació sobre la publicitat en línia basada en el comportament i la privacitat en línia en el següent enllaç: <a href="http://www.youronlinechoices.com/es/">Enllaç</a></p>
 
-<p>Protecció de dades de Google Analytics: http://www.google.com/analytics/learn/privacy.html</p>
+<p>Protecció de dades de Google Analytics: <a href="http://www.google.com/analytics/learn/privacy.html">Enllaç</a></p>
 
-<p>Com utilitza Google Analytics les cookies: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?hl=es#analyticsjs</p>
+<p>Com utilitza Google Analytics les cookies: <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?hl=es#analyticsjs">Enllaç</a></p>
 
 <h4>Actualitzacions i canvis en la política de privacitat / cookies</h4>
 <p>Els webs de Victor poden modificar aquesta Política de Cookies en funció d'exigències legislatives, reglamentàries, o amb la finalitat d'adaptar aquesta política a les instruccions dictades per l'Agència Espanyola de Protecció de Dades, per això s'aconsella als usuaris que la visitin periòdicament.</p>

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="estils.css" rel="stylesheet" type="text/css"/>
     <link href="footer.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="querys.css" rel="stylesheet" type="text/css" media="all"/>
     <title>Llistat d'usuaris</title>
   </head>
   <body>
@@ -35,7 +36,7 @@
     <table class="tablius">
         <thead>
           <tr class="setmana">
-            <th>Codi</th>
+            <th class="ides">Codi</th>
             <th>Usuari</th>
             <th>Email</th>
             <th>Rol</th>
@@ -46,9 +47,9 @@
         <tbody>
         <?php foreach ($llistat as $actual) { ?>
           <tr>
-            <td><?=$actual["id"];?></td>
+            <td class="ides"><?=$actual["id"];?></td>
             <td><?=$actual["nom"];?></td>
-            <td><?=$actual["correu"];?></td>
+            <td class="ides"><?=$actual["correu"];?></td>
             <td><?=$actual["rol"];?></td>
             <td><a href="index.php?r=editar_usuari&id=<?=$actual["nom"];?>"><button class="btn btn-danger ediusu">Editar</button></a></td>
             <td><a href="index.php?r=esborrar_usuari&delete=<?=$actual["id"];?>"><button class="btn btn-danger eliusu">Esborrar</button></a></td>
